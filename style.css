@@ -1,0 +1,42 @@
+body {
+    background-color: #272423;
+    font-family: "creepster";
+}
+
+.main {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-60%);
+    text-align: center;
+    color: #ED7D31;
+}
+
+.main h1{
+   font-size: 60px;
+}
+
+.main a {
+    color: #ED7D31;
+    background: #F6F1EE;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+    text-decoration: none;
+}
+
+.main a:hover {
+    background: transparent;
+    border: 1px solid #ED7D31;
+    transform: translateX(8px);
+
+}
+
+.game {
+    margin-top: 3%;
+}

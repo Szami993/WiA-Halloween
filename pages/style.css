@@ -1,0 +1,16 @@
+body {
+    background-color: #272423;
+}
+
+.container {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #F6F1EE;
+}
+
+#text {
+    font-size: 36px;
+}
